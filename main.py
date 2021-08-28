@@ -13,9 +13,7 @@ def sending_email(send_to, name):
         email_connection.starttls()
         email_connection.login(user=email, password=pw)
         email_connection.sendmail(from_addr=email, to_addrs=send_to,
-        msg=f"""
-        Subject: Hello there
-
+        msg=f"""Subject: Hello there
         
         Hi {name},
 

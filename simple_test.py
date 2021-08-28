@@ -7,7 +7,7 @@ import smtplib
 #Sender email
 email = "example@gmail.com"
 #Sender password
-pw = "test123"
+pw = "examplepassword"
 
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.ehlo()
