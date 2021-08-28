@@ -1,6 +1,6 @@
 #Ignore this file 
 #You can use this to test if your email account is working
-#Did you disable enable less secure apps access?
+#Did you enable less secure apps access (if you are using gmail)?
 
 import smtplib
 
